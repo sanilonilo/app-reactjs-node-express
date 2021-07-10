@@ -1,0 +1,63 @@
+.perfil{
+	width: 100%;
+	max-width: 700px
+}
+
+.perfil h1{
+	font-weight: normal;
+	color: rgb(200,200,200);
+	margin-bottom: 35px
+}
+
+
+.perfil form{
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.perfil form input{
+	width: 100%;
+	margin-bottom: 14px;
+	height: 33px;
+	padding-left: 10px;
+	outline: none;
+	border: 0;
+	background: rgb(10,10,10);
+	color: rgb(180,180,180);
+	font-weight: normal;
+	font-size: 14px
+}
+
+.perfil form button{
+	width: 100px;
+	border: 0;
+	outline: none;
+	padding: 5px;
+	border-radius: 21px;
+	background: rgba(199, 80, 97,0.7);
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 22px;
+	margin-top: 20px
+}
+
+.perfil form button.cancelar{
+	background: rgb(23,23,23);
+	color: rgba(199, 80, 97,0.7);
+	border: 1px solid rgba(199, 80, 97,0.7)
+}
+
+.perfil .deletar{
+	margin-top: 30px;
+	width: 120px;
+	background: white;
+	color: #000;
+	font-weight: bold;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	padding: 6px;
+	border-radius: 22px
+}

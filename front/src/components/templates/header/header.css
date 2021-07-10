@@ -1,0 +1,20 @@
+.header{
+	width: 100%;
+	padding: 26px 3%;
+	display: flex;
+	justify-content: center;
+	background: rgb(10,10,10)
+}
+
+.header nav ul{display: flex;}
+.header nav ul li{margin-right: 32px}
+ 
+ .header nav ul li a,.header nav ul li button{
+ 	font-size: 15px;
+ 	text-decoration: none;
+ 	color: rgba(199, 80, 97,0.7);
+ 	font-weight: bold;
+ 	letter-spacing: 4px
+ }
+
+ .header nav ul li button{background: rgb(10,10,10);border: 0;outline: none;cursor: pointer;}

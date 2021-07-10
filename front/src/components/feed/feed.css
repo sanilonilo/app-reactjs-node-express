@@ -1,0 +1,79 @@
+.feed{
+	width: 100%;
+	max-width: 700px;
+	
+}
+
+.feed h1{
+	color: rgb(200,200,200);
+	font-weight: normal;
+	margin-bottom: 20px
+}
+
+.feed form{width: 100%;display: flex;flex-direction: column;align-items: flex-end;margin-bottom: 30px}
+
+.feed form textarea{
+	width: 100%;
+	padding: 15px;
+	resize: none;
+	height: 120px;
+	border: 0;
+	outline: none;
+	margin-bottom: 14px;
+	background: #000;
+	color: rgb(180,180,180);
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 3px;
+	border-radius: 12px
+}
+
+.feed form button{
+	width: 100px;
+	padding: 10px 0;
+	background: rgba(199, 80, 97,0.7);
+	color: #000;
+	font-weight: bold;
+	border: 0;
+	outline: none;
+	font-size: 16px;
+	letter-spacing: 3px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.feed h3{
+	color: rgba(94, 130, 92,0.8);
+	display: block;
+	
+	margin-bottom: 30px
+}
+.feed .publicacoes{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 22px;
+	max-height: 700px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.feed .publicacao-single{
+	margin-bottom: 14px;
+	border-bottom: 3px solid rgba(0,0,0,0.4);
+	padding: 12px 0;
+}
+
+.feed .publicacao-single span{
+	color: rgba(199, 80, 97,0.7);
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 15px;
+	display: block;
+	margin-bottom: 10px
+}
+
+.feed .publicacao-single p{
+	color: rgb(200,200,200)
+}
+
+ 
